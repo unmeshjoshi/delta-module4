@@ -192,6 +192,7 @@ public class OptimisticTransaction extends Transaction {
     // 5. Write actions to the log
     // 6. Update DeltaLog
     // 7. Release the lock
+        return this;
     }
 
     /**
